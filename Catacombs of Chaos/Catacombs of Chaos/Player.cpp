@@ -1,6 +1,6 @@
 #include "Player.h"
 
-Player::Player(class Game* game, class Race pRace, class CharacterClass pClass) : Actor(game), playerRace(pRace), playerClass(pClass) {
+Player::Player(class Game* game, class Race p_Race, class CharacterClass p_Class) : Actor(game), playerRace(p_Race), playerClass(p_Class) {
 
 }
 

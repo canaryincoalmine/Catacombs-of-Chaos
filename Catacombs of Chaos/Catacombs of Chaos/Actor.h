@@ -1,5 +1,6 @@
 #pragma once
-class Actor
+#include "Entity.h"
+class Actor : public Entity
 {
 public:
 	enum State {
@@ -11,7 +12,7 @@ public:
 	Actor(class Game* game);
 	virtual ~Actor();
 
-private:
+protected:
 	//The actor's state
 	State mState;
 };
