@@ -137,10 +137,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="CharacterClass.cpp" />
+    <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Race.cpp" />
     <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="CharacterClass.h" />
+    <ClInclude Include="Fighter.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Race.h" />
     <ClInclude Include="Random.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
