@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  Random.cpp
+Main.obj : error LNK2001: unresolved external symbol SDL_ShowSimpleMessageBox
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+D:\Documents\Coding\Catacombs-of-Chaos\Catacombs of Chaos\x64\Release\Catacombs of Chaos.exe : fatal error LNK1120: 2 unresolved externals
