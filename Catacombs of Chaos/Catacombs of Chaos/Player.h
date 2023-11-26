@@ -13,6 +13,14 @@ public:
 	class CharacterClass getClass();
 
 private:
+	int strength;
+	int strengthPercentile;
+	int intelligence;
+	int wisdom;
+	int dexterity;
+	int constitution;
+	int charisma;
+
 	class Race playerRace;
 	class CharacterClass playerClass;
 	std::vector<Item> playerInventory; //Might be better to use something other than a vector. Not sure what though.

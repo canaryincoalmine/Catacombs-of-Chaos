@@ -1,1 +1,5 @@
-﻿  Catacombs of Chaos.vcxproj -> D:\Documents\Coding\Catacombs-of-Chaos\Catacombs of Chaos\x64\Debug\Catacombs of Chaos.exe
+﻿  Game.cpp
+Main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::Shutdown(void)" (?Shutdown@Game@@QEAAXXZ) referenced in function SDL_main
+Player.obj : error LNK2019: unresolved external symbol "public: __cdecl Actor::Actor(class Game *)" (??0Actor@@QEAA@PEAVGame@@@Z) referenced in function "public: __cdecl Player::Player(class Game *,class Race,class CharacterClass)" (??0Player@@QEAA@PEAVGame@@VRace@@VCharacterClass@@@Z)
+Player.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Actor::~Actor(void)" (??1Actor@@UEAA@XZ) referenced in function "public: virtual __cdecl Player::~Player(void)" (??1Player@@UEAA@XZ)
+D:\Documents\Coding\Catacombs-of-Chaos\Catacombs of Chaos\x64\Debug\Catacombs of Chaos.exe : fatal error LNK1120: 3 unresolved externals

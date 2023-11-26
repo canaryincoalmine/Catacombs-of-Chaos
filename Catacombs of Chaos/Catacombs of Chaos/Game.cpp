@@ -21,3 +21,8 @@ void Game::RunLoop()
 		UpdateGame();
 		GenerateOutput();
 	}
+}
+
+void Game::Shutdown() {
+
+}
